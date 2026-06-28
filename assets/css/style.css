@@ -114,21 +114,35 @@ body{
 
 .hero-button{
 
+    display:inline-block;
+
     margin-top:40px;
 
     padding:18px 45px;
-
-    border:none;
-
-    border-radius:15px;
 
     background:#2563eb;
 
     color:white;
 
+    text-decoration:none;
+
+    border-radius:15px;
+
     font-size:18px;
 
+    font-weight:600;
+
     cursor:pointer;
+
+    transition:0.3s;
+
+}
+
+.hero-button:hover{
+
+    background:#1d4ed8;
+
+    transform:translateY(-2px);
 
 }
 
