@@ -408,7 +408,7 @@ body{
 
     margin:auto;
 
-    padding:120px 20px;
+      padding:70px 20px;padding:70px 20px;
 
 }
 
@@ -428,27 +428,21 @@ body{
 
     text-align:center;
 
-    font-size:72px;
-
+    font-size:56px;
     font-weight:800;
+    line-height:1.1;
 
-    margin-top:15px;
-
-    color:#111827;
+    margin:10px 0;
 
 }
 
 .project-subtitle{
 
-    text-align:center;
-
-    font-size:24px;
+    font-size:20px;
 
     color:#666;
 
-    margin-top:10px;
-
-    margin-bottom:50px;
+    margin-bottom:35px;
 
 }
 
@@ -456,17 +450,26 @@ body{
 
     width:100%;
 
-    border-radius:25px;
+    max-width:900px;
 
-    box-shadow:0 20px 50px rgba(0,0,0,.15);
+    max-height:450px;
+
+    object-fit:cover;
+
+    display:block;
+
+    margin:auto;
+
+    border-radius:24px;
+
+    box-shadow:0 20px 50px rgba(0,0,0,.12);
 
 }
-
 .project-description{
 
     max-width:850px;
 
-    margin:40px auto;
+    margin:25px auto;
 
     text-align:center;
 
@@ -480,7 +483,7 @@ body{
 
     display:block;
 
-    margin:50px auto;
+    margin:30px auto;
 
     padding:18px 45px;
 
