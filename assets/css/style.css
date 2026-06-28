@@ -110,3 +110,211 @@ body{
     color:#555;
 
 }
+
+/* =========================================
+   PROJECTS
+========================================= */
+
+#projects{
+
+    padding:100px 8%;
+
+}
+
+.section-heading{
+
+    text-align:center;
+
+    margin-bottom:70px;
+
+}
+
+.section-heading p{
+
+    color:#2563eb;
+
+    letter-spacing:3px;
+
+    font-size:14px;
+
+    font-weight:700;
+
+    margin-bottom:15px;
+
+}
+
+.section-heading h2{
+
+    font-size:60px;
+
+    margin-bottom:15px;
+
+}
+
+.section-heading span{
+
+    color:#6b7280;
+
+    font-size:20px;
+
+}
+
+.project-card{
+
+    max-width:1200px;
+
+    margin:auto;
+
+    display:flex;
+
+    align-items:center;
+
+    gap:60px;
+
+    background:white;
+
+    border-radius:24px;
+
+    padding:40px;
+
+    box-shadow:0 10px 35px rgba(0,0,0,.08);
+
+}
+
+.project-image{
+
+    flex:0 0 45%;
+
+}
+
+.project-image img{
+
+    width:100%;
+
+    height:340px;
+
+    object-fit:cover;
+
+    border-radius:18px;
+
+    display:block;
+
+}
+
+.project-info{
+
+    flex:1;
+
+}
+
+.project-info span{
+
+    color:#2563eb;
+
+    font-size:14px;
+
+    font-weight:700;
+
+    letter-spacing:2px;
+
+}
+
+.project-info h3{
+
+    font-size:42px;
+
+    margin:18px 0 10px;
+
+}
+
+.project-info h4{
+
+    font-size:28px;
+
+    color:#6b7280;
+
+    margin-bottom:25px;
+
+}
+
+.project-info p{
+
+    font-size:18px;
+
+    line-height:1.8;
+
+    color:#555;
+
+    margin-bottom:35px;
+
+}
+
+.project-info button{
+
+    padding:16px 34px;
+
+    border:none;
+
+    border-radius:12px;
+
+    background:#2563eb;
+
+    color:white;
+
+    font-size:18px;
+
+    cursor:pointer;
+
+}
+
+/* =========================================
+   RESPONSIVE
+========================================= */
+
+@media (max-width:900px){
+
+    #hero{
+
+        flex-direction:column;
+
+        text-align:center;
+
+        min-height:auto;
+
+        padding:60px 8%;
+
+    }
+
+    .hero-right h1{
+
+        font-size:52px;
+
+    }
+
+    .hero-right h2{
+
+        font-size:28px;
+
+    }
+
+    .project-card{
+
+        flex-direction:column;
+
+        text-align:center;
+
+    }
+
+    .project-image{
+
+        width:100%;
+
+    }
+
+    .project-image img{
+
+        height:auto;
+
+    }
+
+}
