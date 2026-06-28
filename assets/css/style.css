@@ -368,3 +368,123 @@ body{
     background:#1d4ed8;
 
 }
+
+.project-details{
+
+    display:none;
+
+    margin-top:70px;
+
+    animation:fadeIn .4s ease;
+
+}
+
+.project-details.active{
+
+    display:block;
+
+}
+
+.project-details hr{
+
+    margin:60px 0;
+
+    border:none;
+
+    border-top:1px solid #ddd;
+
+}
+
+.project-details h3{
+
+    margin-top:40px;
+
+    margin-bottom:15px;
+
+    color:#111827;
+
+}
+
+.project-details p{
+
+    line-height:1.8;
+
+    color:#555;
+
+}
+
+.project-details ul{
+
+    margin-left:25px;
+
+    line-height:2;
+
+}
+
+.tech-stack{
+
+    display:flex;
+
+    flex-wrap:wrap;
+
+    gap:12px;
+
+    margin-top:20px;
+
+}
+
+.tech-stack span{
+
+    background:#2563eb;
+
+    color:white;
+
+    padding:10px 18px;
+
+    border-radius:999px;
+
+    font-size:14px;
+
+}
+
+.gallery-image{
+
+    width:100%;
+
+    max-width:900px;
+
+    border-radius:20px;
+
+    margin-top:20px;
+
+}
+
+.project-details video{
+
+    width:100%;
+
+    margin-top:20px;
+
+    border-radius:20px;
+
+}
+
+@keyframes fadeIn{
+
+    from{
+
+        opacity:0;
+
+        transform:translateY(20px);
+
+    }
+
+    to{
+
+        opacity:1;
+
+        transform:translateY(0);
+
+    }
+
+}
